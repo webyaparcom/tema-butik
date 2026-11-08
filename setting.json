@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Özel dikim butik; görseller temsilîdir.",
+    "en": "Custom-tailored boutique; images are representative.",
+    "ar": "بودينغ بقصّة خاصة؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "butik, özel dikim, elbise",
+    "en": "boutique, custom tailoring, dress",
+    "ar": "بودينغ، قصّة خاصة، فستان"
+  },
+  "category": "Kurumsal",
+  "name": "Ipek Butik",
+  "domain": "butik.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "lora",
+    "heading": "cormorant-garamond",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#CC3264",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "12px",
+    "--mx-radius-md": "20px",
+    "--mx-radius-lg": "28px",
+    "--mx-radius-xl": "999px"
+  },
+  "icon": "icon.png"
+}
