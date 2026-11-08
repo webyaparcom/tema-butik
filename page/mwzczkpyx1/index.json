@@ -1,0 +1,40 @@
+{
+  "id": "mwzczkpyx1",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Dikim, hazır ve kombin.",
+    "en": "Tailoring, ready and combination.",
+    "ar": "قصّة وجاهز ومجموعة."
+  },
+  "keyword": {
+    "tr": "Butik",
+    "en": "Boutique",
+    "ar": "البودينغ"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "c3soc6",
+      "3f13zf"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:58:31.474Z",
+  "update": "2026-11-05T23:44:29.615Z"
+}
