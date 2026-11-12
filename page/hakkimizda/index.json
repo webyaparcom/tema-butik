@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Özel dikim butik.",
-    "en": "Custom-tailored boutique.",
-    "ar": "بودينغ بقصّة خاصة."
+    "tr": "Özel dikim ve hazır giyim butiği.",
+    "en": "A boutique for custom tailoring and ready-to-wear.",
+    "ar": "بوتيك للخياطة حسب الطلب والملابس الجاهزة."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:29.619Z",
+  "update": "2026-11-12T07:35:14.066Z",
   "date": "2026-10-30"
 }

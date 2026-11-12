@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu al",
+          "en": "Book now",
+          "ar": "احجزي موعدًا"
         },
         "cta_url": "teklif-al"
       },
@@ -1535,17 +1546,17 @@
         "eyebrow": {
           "tr": "Özel dikim",
           "en": "Custom tailoring",
-          "ar": "قصّة خاصة"
+          "ar": "خياطة حسب الطلب"
         },
         "title": {
-          "tr": "Giydiğiniz, ölçünüzde",
-          "en": "What you wear, at your measure",
-          "ar": "ما ترتديه على مقاسك"
+          "tr": "Giydiğiniz, ölçünüze göre",
+          "en": "What you wear, made to your measure",
+          "ar": "ما ترتدينه على مقاسك"
         },
         "metin": {
-          "tr": "Ipek Butik, özel dikim ve hazır giyim sunar. Görseller temsilidir; tüm metinler kurgusaldır.",
-          "en": "Ipek boutique offers custom tailoring and ready-to-wear. Images are representative and all text is fictional.",
-          "ar": "يتوفر بودينغ إيبك القصّة الخاصة والملابس الجاهزة. الصور تمثيلية وجميع النصوص افتراضية."
+          "tr": "İpek Butik; özel dikim ve hazır giyim sunar. Kumaşınızı seçer, provanızı butikte yaparsınız. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Ipek Butik offers custom tailoring and ready-to-wear. You choose your fabric and have your fittings at the boutique. Images are representative; all text is fictional.",
+          "ar": "يقدّم إيبك بوتيك الخياطة حسب الطلب والملابس الجاهزة. تختارين القماش وتجرين البروفات في البوتيك. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
           "tr": "Koleksiyon",
@@ -1554,9 +1565,9 @@
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Dikim iste",
-          "en": "Request tailoring",
-          "ar": "اطلب قصّة"
+          "tr": "Dikim randevusu",
+          "en": "Book a fitting",
+          "ar": "احجزي موعد خياطة"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What are we offering?",
-          "ar": "ماذا نقدم?"
+          "tr": "Rakamlarla İpek Butik",
+          "en": "Ipek Butik in numbers",
+          "ar": "إيبك بوتيك بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1624,7 +1635,7 @@
           "aciklama": {
             "tr": "Butikte",
             "en": "In the boutique",
-            "ar": "في البودينغ"
+            "ar": "في البوتيك"
           }
         },
         {
@@ -1633,8 +1644,8 @@
           "ikon": "checkroom",
           "etiket": {
             "tr": "Dikim",
-            "en": "Tailoring",
-            "ar": "قصّات"
+            "en": "Garments sewn",
+            "ar": "قطع مخيطة"
           },
           "aciklama": {
             "tr": "2022–2026",
@@ -1647,14 +1658,14 @@
           "sonek": "",
           "ikon": "schedule",
           "etiket": {
-            "tr": "Dikte özel dikim",
-            "en": "Tailoring days",
-            "ar": "أيام القصّة"
+            "tr": "İş günü",
+            "en": "Business days",
+            "ar": "أيام عمل"
           },
           "aciklama": {
-            "tr": "Tahmini",
-            "en": "Estimated",
-            "ar": "تقديري"
+            "tr": "Özel dikimde tahmini süre",
+            "en": "Estimated time for custom tailoring",
+            "ar": "المدة التقديرية للخياطة حسب الطلب"
           }
         },
         {
@@ -1664,7 +1675,7 @@
           "etiket": {
             "tr": "Prova turu",
             "en": "Fitting rounds",
-            "ar": "جولات الملاءمة"
+            "ar": "جولات البروفة"
           },
           "aciklama": {
             "tr": "Standart",
@@ -1697,17 +1708,17 @@
         "badge": {
           "tr": "Butik",
           "en": "Boutique",
-          "ar": "البودينغ"
+          "ar": "البوتيك"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What are we offering?",
-          "ar": "ماذا نقدم?"
+          "tr": "Neler sunuyoruz?",
+          "en": "What do we offer?",
+          "ar": "ماذا نقدّم؟"
         },
         "description": {
-          "tr": "Dikim, hazır ve kombin.",
-          "en": "Tailoring, ready and combination.",
-          "ar": "قصّة وجاهز ومجموعة."
+          "tr": "Özel dikim, hazır giyim ve kombin.",
+          "en": "Custom tailoring, ready-to-wear and styling.",
+          "ar": "خياطة حسب الطلب وملابس جاهزة وتنسيق إطلالات."
         }
       },
       "data": [
@@ -1716,12 +1727,12 @@
           "name": {
             "tr": "Özel dikim",
             "en": "Custom tailoring",
-            "ar": "قصّة خاصة"
+            "ar": "خياطة حسب الطلب"
           },
           "description": {
-            "tr": "Ölçülü elbise ve gömlek.",
-            "en": "Measured dresses and shirts.",
-            "ar": "فساتين وقمصان مقاسة."
+            "tr": "Ölçüye göre elbise, gömlek ve takım.",
+            "en": "Dresses, shirts and suits made to measure.",
+            "ar": "فساتين وقمصان وبدلات بحسب القياس."
           }
         },
         {
@@ -1733,7 +1744,7 @@
           },
           "description": {
             "tr": "Mevsimlik hazır koleksiyon.",
-            "en": "Seasonal ready collection.",
+            "en": "A seasonal ready-to-wear collection.",
             "ar": "مجموعة جاهزة موسمية."
           }
         },
@@ -1741,52 +1752,52 @@
           "icon": "colorize",
           "name": {
             "tr": "Kumaş seçimi",
-            "en": "Fabric choice",
+            "en": "Fabric selection",
             "ar": "اختيار القماش"
           },
           "description": {
-            "tr": "40 kumaş kartı (demo).",
-            "en": "A 40-fabric card (demo).",
-            "ar": "بطاقة أقمشة بأربعين (تجريبية."
+            "tr": "Kırk kumaş kartından seçim (kurgusal).",
+            "en": "Choose from forty fabric cards (fictional).",
+            "ar": "الاختيار من أربعين بطاقة أقمشة (افتراضي)."
           }
         },
         {
           "icon": "tune",
           "name": {
             "tr": "Uyarlama",
-            "en": "Adjustment",
-            "ar": "ضبط"
+            "en": "Alterations",
+            "ar": "التعديلات"
           },
           "description": {
-            "tr": "Bel, etek ve kol uyarlama.",
-            "en": "Waist, sleeve and hem adjustment.",
-            "ar": "ضبط الخصر والكم وكمّة الوبر."
+            "tr": "Bel, kol ve boy uyarlaması.",
+            "en": "Waist, sleeve and length alterations.",
+            "ar": "تعديل الخصر والكم والطول."
           }
         },
         {
-          "icon": "theaters",
+          "icon": "celebration",
           "name": {
             "tr": "Davet kıyafeti",
-            "en": "Occasion clothing",
+            "en": "Occasion wear",
             "ar": "ملابس المناسبات"
           },
           "description": {
-            "tr": "Davet için tam set.",
-            "en": "A full set for the occasion.",
-            "ar": "طقم كامل للحدث."
+            "tr": "Davet ve özel gün için komple kombin.",
+            "en": "A complete outfit for invitations and special days.",
+            "ar": "إطلالة كاملة للمناسبات والأيام الخاصة."
           }
         },
         {
-          "icon": "delivery_dining",
+          "icon": "event",
           "name": {
-            "tr": "Teslimat",
-            "en": "Delivery",
-            "ar": "التسليم"
+            "tr": "Prova ve teslim",
+            "en": "Fittings and delivery",
+            "ar": "البروفة والتسليم"
           },
           "description": {
-            "tr": "Gaziantep içi; demo bilgi.",
-            "en": "Within Gaziantep; demo info.",
-            "ar": "داخل غازي عنتاب؛ معلومات تجريبية."
+            "tr": "Randevulu prova; teslimat Gaziantep içinde (kurgusal bilgi).",
+            "en": "Fittings by appointment; delivery within Gaziantep (fictional information).",
+            "ar": "بروفات بموعد مسبق؛ وتوصيل داخل غازي عنتاب (معلومات افتراضية)."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Dikim süreci",
+          "en": "Tailoring process",
+          "ar": "مسار الخياطة"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Kumaştan teslime dört adım",
+          "en": "Four steps from fabric to delivery",
+          "ar": "أربع خطوات من القماش إلى التسليم"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Her kıyafet aynı özenle hazırlanır.",
+          "en": "Every garment is prepared with the same care.",
+          "ar": "تُجهَّز كل قطعة بالعناية نفسها."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Buluşma",
-            "en": "Meeting",
-            "ar": "لقاء"
+            "tr": "Model ve kumaş",
+            "en": "Style and fabric",
+            "ar": "الموديل والقماش"
           },
           "text": {
-            "tr": "Kumaş ve model seçimi.",
-            "en": "Fabric and model choice.",
-            "ar": "اختيار القماش والموديل."
+            "tr": "Model ve kumaş birlikte seçilir.",
+            "en": "The style and fabric are chosen together.",
+            "ar": "يُختار الموديل والقماش معًا."
           }
         },
         {
           "year": "02",
           "title": {
             "tr": "Ölçü",
-            "en": "Measure",
-            "ar": "القياس"
+            "en": "Measuring",
+            "ar": "أخذ القياسات"
           },
           "text": {
-            "tr": "Ölçülü prova.",
-            "en": "Measured fitting.",
-            "ar": "ملاءمة مقاسة."
+            "tr": "Ölçüler alınır, kalıp hazırlanır.",
+            "en": "Measurements are taken and the pattern is prepared.",
+            "ar": "تؤخذ القياسات ويُعدّ الباترون."
           }
         },
         {
           "year": "03",
           "title": {
             "tr": "Dikim",
-            "en": "Tailoring",
-            "ar": "القصّة"
+            "en": "Sewing",
+            "ar": "الخياطة"
           },
           "text": {
-            "tr": "Üretim ve süsleme.",
-            "en": "Production and decoration.",
-            "ar": "التصنيع والتزيين."
+            "tr": "Kıyafet atölyede dikilir.",
+            "en": "The garment is sewn in the workshop.",
+            "ar": "تُخاط القطعة في الورشة."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Teslim",
-            "en": "Handover",
-            "ar": "التسليم"
+            "tr": "Prova ve teslim",
+            "en": "Fitting and delivery",
+            "ar": "البروفة والتسليم"
           },
           "text": {
-            "tr": "Son prova ve teslim.",
-            "en": "Final fitting and handover.",
-            "ar": "ملاءمة نهائية والتسليم."
+            "tr": "Prova sonrası uyarlama yapılır, kıyafet teslim edilir.",
+            "en": "Alterations are made after the fitting and the garment is delivered.",
+            "ar": "تُجرى التعديلات بعد البروفة ثم تُسلَّم القطعة."
           }
         }
       ],
@@ -1911,19 +1922,19 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Atölye ekibi",
+          "en": "Workshop team",
+          "ar": "فريق الورشة"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Dikimi yapanlar",
+          "en": "The people who sew",
+          "ar": "من يقمن بالخياطة"
         },
         "description": {
-          "tr": "Kurgusal demo profiller.",
-          "en": "Fictional demo profiles.",
-          "ar": "ملفات تجريبية افتراضية."
+          "tr": "Kurgusal örnek kadro.",
+          "en": "A fictional sample team.",
+          "ar": "فريق افتراضي للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -1932,13 +1943,13 @@
         {
           "name": "Leyla Su",
           "role": {
-            "tr": "Tasarım",
-            "en": "Design",
-            "ar": "تصميم"
+            "tr": "Tasarımcı",
+            "en": "Designer",
+            "ar": "مصممة"
           },
           "bio": {
             "tr": "Model ve kumaş seçimi.",
-            "en": "Model and fabric choice.",
+            "en": "Style and fabric selection.",
             "ar": "اختيار الموديل والقماش."
           },
           "img": ""
@@ -1946,28 +1957,28 @@
         {
           "name": "Zeynep Arslan",
           "role": {
-            "tr": "Dikim başı",
+            "tr": "Dikim sorumlusu",
             "en": "Head of tailoring",
-            "ar": "رئيسة القصّة"
+            "ar": "رئيسة الخياطة"
           },
           "bio": {
-            "tr": "15 yıl dikim.",
-            "en": "15 years of tailoring.",
-            "ar": "١٥ عامًا في القصّة."
+            "tr": "15 yıllık dikim tecrübesi.",
+            "en": "15 years of tailoring experience.",
+            "ar": "١٥ عامًا من الخبرة في الخياطة."
           },
           "img": ""
         },
         {
           "name": "Gizem Polat",
           "role": {
-            "tr": "Uyarlama",
-            "en": "Adjustment",
-            "ar": "ضبط"
+            "tr": "Prova ve uyarlama",
+            "en": "Fittings and alterations",
+            "ar": "البروفات والتعديلات"
           },
           "bio": {
-            "tr": "Prova ve son dokunuşlar.",
-            "en": "Fitting and final touches.",
-            "ar": "الملاءمة واللمسات الأخيرة."
+            "tr": "Prova ve son rötuşlar.",
+            "en": "Fittings and final touches.",
+            "ar": "البروفات واللمسات الأخيرة."
           },
           "img": ""
         }
@@ -2008,9 +2019,9 @@
           "ar": "ماذا يقول عملاؤنا؟"
         },
         "description": {
-          "tr": "Kurgusal demo yorumlar.",
-          "en": "Fictional demo reviews.",
-          "ar": "تقييمات تجريبية افتراضية."
+          "tr": "Kurgusal örnek yorumlar.",
+          "en": "Fictional sample reviews.",
+          "ar": "آراء افتراضية للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -2019,16 +2030,16 @@
         {
           "name": "Ayşe K.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "عميلة"
+            "tr": "Özel dikim müşterisi",
+            "en": "Custom tailoring customer",
+            "ar": "عميلة خياطة حسب الطلب"
           },
           "rating": 5,
           "img": "",
           "text": {
             "tr": "Özel dikim elbise tam oturdu.",
-            "en": "The custom-tailored dress fit perfectly.",
-            "ar": "الفستان المصنوع خصيصًا جاء على المقاس تمامًا."
+            "en": "The custom-made dress fit perfectly.",
+            "ar": "ناسبني الفستان المخيط حسب الطلب تمامًا."
           }
         },
         {
@@ -2041,24 +2052,24 @@
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Kumaş kartı zengin; seçim kolay.",
-            "en": "The fabric card is rich; the choice is easy.",
-            "ar": "بطاقة الأقمشة غنية؛ الاختيار سهل."
+            "tr": "Kumaş kartı zengin; seçmek kolay.",
+            "en": "The fabric card is rich and choosing is easy.",
+            "ar": "بطاقة الأقمشة غنية والاختيار سهل."
           }
         },
         {
           "name": "Sevda R.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "عميلة"
+            "tr": "Davet müşterisi",
+            "en": "Occasion wear customer",
+            "ar": "عميلة ملابس مناسبات"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Uyarlama hızlı; teslim zamanında.",
-            "en": "Adjustment was fast; handover on time.",
-            "ar": "الضبط سريع؛ التسليم في وقته."
+            "tr": "Uyarlama hızlıydı; teslim zamanında geldi.",
+            "en": "The alteration was quick and delivery was on time.",
+            "ar": "كان التعديل سريعًا وجاء التسليم في موعده."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "20px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Butikten",
+          "en": "From the boutique",
+          "ar": "من البوتيك"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What are we offering?",
-          "ar": "ماذا نقدم?"
+          "tr": "Neler sunuyoruz?",
+          "en": "What do we offer?",
+          "ar": "ماذا نقدّم؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metin ve rakamlar kurgusaldır.",
+          "en": "Images are representative; text and figures are fictional.",
+          "ar": "الصور تمثيلية والنصوص والأرقام افتراضية."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2128,12 +2139,12 @@
           "baslik": {
             "tr": "Özel dikim",
             "en": "Custom tailoring",
-            "ar": "قصّة خاصة"
+            "ar": "خياطة حسب الطلب"
           },
           "metin": {
-            "tr": "Ölçülü elbise ve gömlek.",
-            "en": "Measured dresses and shirts.",
-            "ar": "فساتين وقمصان مقاسة."
+            "tr": "Ölçüye göre elbise, gömlek ve takım.",
+            "en": "Dresses, shirts and suits made to measure.",
+            "ar": "فساتين وقمصان وبدلات بحسب القياس."
           },
           "img": "moda-urun-elbise.webp",
           "alt": {
@@ -2151,10 +2162,10 @@
           },
           "metin": {
             "tr": "Mevsimlik hazır koleksiyon.",
-            "en": "Seasonal ready collection.",
+            "en": "A seasonal ready-to-wear collection.",
             "ar": "مجموعة جاهزة موسمية."
           },
-          "img": "moda-urun-sal.webp",
+          "img": "moda-kategori-1.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2165,13 +2176,13 @@
         {
           "baslik": {
             "tr": "Kumaş seçimi",
-            "en": "Fabric choice",
+            "en": "Fabric selection",
             "ar": "اختيار القماش"
           },
           "metin": {
-            "tr": "40 kumaş kartı (demo).",
-            "en": "A 40-fabric card (demo).",
-            "ar": "بطاقة أقمشة بأربعين (تجريبية."
+            "tr": "Kırk kumaş kartından seçim (kurgusal).",
+            "en": "Choose from forty fabric cards (fictional).",
+            "ar": "الاختيار من أربعين بطاقة أقمشة (افتراضي)."
           },
           "img": "moda-atolye.webp",
           "alt": {
@@ -2229,14 +2240,14 @@
         "radius": "20px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Kumaş ve malzeme tedarikçilerimiz",
+          "en": "Our fabric and material suppliers",
+          "ar": "موردو الأقمشة والمواد"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal tedarikçi adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional supplier names; they do not belong to a real organisation.",
+          "ar": "أسماء موردين افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2261,7 +2272,7 @@
           "name": "Demo Dantel"
         },
         {
-          "name": "Demo Terzi"
+          "name": "Demo Düğme"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Özel dikim ne kadar sürer?",
+            "en": "How long does custom tailoring take?",
+            "ar": "كم تستغرق الخياطة حسب الطلب؟"
+          },
+          "answer": {
+            "tr": "Tahminen 10 iş günü ve üç prova turu (kurgusal bilgi).",
+            "en": "About 10 business days and three fitting rounds (fictional information).",
+            "ar": "نحو 10 أيام عمل وثلاث جولات بروفة (معلومات افتراضية)."
+          },
           "soru": {
-            "tr": "Dikim ne kadar sürer?",
-            "en": "How long does the tailoring take?",
-            "ar": "كم تستغرق القصّة?"
+            "tr": "Özel dikim ne kadar sürer?",
+            "en": "How long does custom tailoring take?",
+            "ar": "كم تستغرق الخياطة حسب الطلب؟"
           },
           "cevap": {
-            "tr": "Tahmini 8–10 iş gün sürer (demo bilgi).",
-            "en": "Estimated 8–10 business days (demo info).",
-            "ar": "يُقدَّر 8–10 أيام عمل (معلومات تجريبية."
+            "tr": "Tahminen 10 iş günü ve üç prova turu (kurgusal bilgi).",
+            "en": "About 10 business days and three fitting rounds (fictional information).",
+            "ar": "نحو 10 أيام عمل وثلاث جولات بروفة (معلومات افتراضية)."
           }
         },
         {
+          "question": {
+            "tr": "Kumaşı kendim getirebilir miyim?",
+            "en": "Can I bring my own fabric?",
+            "ar": "هل يمكنني إحضار القماش بنفسي؟"
+          },
+          "answer": {
+            "tr": "Evet; uygunluğunu birlikte değerlendiririz.",
+            "en": "Yes; we assess its suitability together.",
+            "ar": "نعم؛ نقيّم ملاءمته معًا."
+          },
           "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "tr": "Kumaşı kendim getirebilir miyim?",
+            "en": "Can I bring my own fabric?",
+            "ar": "هل يمكنني إحضار القماش بنفسي؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Evet; uygunluğunu birlikte değerlendiririz.",
+            "en": "Yes; we assess its suitability together.",
+            "ar": "نعم؛ نقيّم ملاءمته معًا."
           }
         },
         {
+          "question": {
+            "tr": "Hazır giyimde beden değişimi var mı?",
+            "en": "Can ready-to-wear items be exchanged for another size?",
+            "ar": "هل يمكن تبديل المقاس في الملابس الجاهزة؟"
+          },
+          "answer": {
+            "tr": "Evet; etiketli ve kullanılmamış ürünlerde (kurgusal bilgi).",
+            "en": "Yes, for tagged and unworn items (fictional information).",
+            "ar": "نعم، للقطع غير المستعملة التي لا تزال عليها بطاقاتها (معلومات افتراضية)."
+          },
           "soru": {
-            "tr": "Kumaşımı getirebilir miyim?",
-            "en": "Can I bring my fabric?",
-            "ar": "يمكنني جلب قماشي?"
+            "tr": "Hazır giyimde beden değişimi var mı?",
+            "en": "Can ready-to-wear items be exchanged for another size?",
+            "ar": "هل يمكن تبديل المقاس في الملابس الجاهزة؟"
           },
           "cevap": {
-            "tr": "Evet; kumaş kontrolü sonrası dikilme.",
-            "en": "Yes; tailoring after a fabric check.",
-            "ar": "نعم؛ القصّة بعد فحص القماش."
+            "tr": "Evet; etiketli ve kullanılmamış ürünlerde (kurgusal bilgi).",
+            "en": "Yes, for tagged and unworn items (fictional information).",
+            "ar": "نعم، للقطع غير المستعملة التي لا تزال عليها بطاقاتها (معلومات افتراضية)."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve bilgiler gerçek mi?",
+            "en": "Are the images and information on the site real?",
+            "ar": "هل الصور والمعلومات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; görseller temsilî, ad, rakam ve kişiler kurgusaldır.",
+            "en": "No; images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
+          },
           "soru": {
-            "tr": "Sitedeki görseller ve veriler gerçek midir?",
-            "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "tr": "Sitedeki görseller ve bilgiler gerçek mi?",
+            "en": "Are the images and information on the site real?",
+            "ar": "هل الصور والمعلومات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
-            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+            "tr": "Hayır; görseller temsilî, ad, rakam ve kişiler kurgusaldır.",
+            "en": "No; images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "20px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Dikim randevusu isteyin",
+          "en": "Request a tailoring appointment",
+          "ar": "اطلبي موعد خياطة"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Ne dikmek istediğinizi yazın; iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Tell us what you would like made; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اكتبي ما تودّين خياطته ونردّ خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا تُحفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Ipek Butik",
@@ -2421,14 +2472,14 @@
           "ar": "Ipek Butik"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metin ve rakamlar kurgusaldır.",
+          "en": "Images are representative; text and figures are fictional.",
+          "ar": "الصور تمثيلية والنصوص والأرقام افتراضية."
         },
         "address": {
           "tr": "Gümüşhane Caddesi No: 33, Şahinbey, Gaziantep (kurgusal adres)",
-          "en": "33 Gumushanei Avenue, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع فضي رقم 33، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "en": "33 Gumushane Avenue, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع غوموشهانه رقم 33، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 027 07 07",
         "whatsapp": "903420270707",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Özel dikim",
+              "en": "Custom tailoring",
+              "ar": "خياطة حسب الطلب"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Hazır giyim",
+              "en": "Ready-to-wear",
+              "ar": "ملابس جاهزة"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Davet kıyafeti",
+              "en": "Occasion wear",
+              "ar": "ملابس مناسبات"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,33 +2691,33 @@
           "ar": "Ipek Butik"
         },
         "description": {
-          "tr": "Ipek Butik 2016dan beri özel dikim yapar. Bu bir demo sayfasıdır; kumaş ve sayı verileri kurgusaldır.",
-          "en": "Ipek boutique has done custom tailoring since 2016. This is a demo page and the fabric and count data are fictional.",
-          "ar": "يقوم بودينغ إيبك بالقصّة الخاصة منذ عام 2016. هذه صفحة تجريبية وبيانات الأقمشة والعدادات افتراضية."
+          "tr": "İpek Butik, 2022’den beri özel dikim ve hazır giyim sunar. Bu sayfa demodur; ad ve rakamlar kurgusaldır.",
+          "en": "Ipek Butik has offered custom tailoring and ready-to-wear since 2022. This page is a demo; names and figures are fictional.",
+          "ar": "يقدّم إيبك بوتيك منذ عام 2022 الخياطة حسب الطلب والملابس الجاهزة. هذه الصفحة تجريبية والأسماء والأرقام افتراضية."
         },
         "name2": {
-          "tr": "Tek atölye",
-          "en": "One workshop",
-          "ar": "ورشة واحدة"
+          "tr": "Üç prova",
+          "en": "Three fittings",
+          "ar": "ثلاث بروفات"
         },
         "spot2": {
-          "tr": "Dikim ve uyarlama aynı mekân.",
-          "en": "Tailoring and adjustment in the same space.",
-          "ar": "القصّة والضبط في المكان نفسه."
+          "tr": "Özel dikimde en fazla üç prova turu yapılır.",
+          "en": "Custom tailoring includes up to three fitting rounds.",
+          "ar": "تشمل الخياطة حسب الطلب حتى ثلاث جولات بروفة."
         },
-        "icon2": "roofing",
+        "icon2": "checkroom",
         "name3": {
-          "tr": "Prova defteri",
-          "en": "Fitting book",
-          "ar": "دفتر الملاءمة"
+          "tr": "Kumaş kartı",
+          "en": "Fabric card",
+          "ar": "بطاقة الأقمشة"
         },
         "spot3": {
-          "tr": "Her ölçü defterde; tekrar dikim aynı ölçüde.",
-          "en": "Every measure is in the book; repeat tailoring at the same measure.",
-          "ar": "كل قياس في الدفتر؛ القصّة المتكررة على نفس القياس."
+          "tr": "Kumaşlar butikte; rengi ışıkta görerek seçersiniz.",
+          "en": "The fabrics are in the boutique, so you choose the colour in real light.",
+          "ar": "الأقمشة في البوتيك فتختارين اللون تحت الإضاءة الحقيقية."
         },
-        "icon3": "schedule",
-        "img": "moda-urun-ceket.webp",
+        "icon3": "colorize",
+        "img": "moda-kategori-2.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2738,8 +2790,8 @@
         "email": "bilgi@ipekbutik.example",
         "address": {
           "tr": "Gümüşhane Caddesi No: 33, Şahinbey, Gaziantep (kurgusal adres)",
-          "en": "33 Gumushanei Avenue, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع فضي رقم 33، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "en": "33 Gumushane Avenue, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع غوموشهانه رقم 33، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 10:00 – 20:00",
+          "en": "Mon–Sat 10:00 – 20:00",
+          "ar": "الاثنين–السبت 10:00 – 20:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,9 +2899,9 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "20px",
         "title": {
-          "tr": "Özel dikim için görüşme",
-          "en": "Consultation for custom tailoring",
-          "ar": "استشارة للقصّة الخاصة"
+          "tr": "Dikim randevusu alın",
+          "en": "Book a tailoring appointment",
+          "ar": "احجزي موعد خياطة"
         },
         "text": {
           "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
@@ -2891,9 +2943,9 @@
           "ar": "ساعات العمل"
         },
         "waMessage": {
-          "tr": "Merhaba, Ipek Butik ile iletişime geçmek istiyorum.",
+          "tr": "Merhaba, İpek Butik ile iletişime geçmek istiyorum.",
           "en": "Hello, I would like to get in touch with Ipek Butik.",
-          "ar": "مرحبًا، أودّ التواصل مع Ipek Butik."
+          "ar": "مرحبًا، أودّ التواصل مع إيبك بوتيك."
         },
         "img": "",
         "alt": {
@@ -2949,9 +3001,9 @@
         "logo_maxh": "52px",
         "logo_plate": false,
         "about": {
-          "tr": "Ipek Butik demo temadır; içerik kurgusaldır.",
+          "tr": "İpek Butik demo temadır; içerik kurgusaldır.",
           "en": "Ipek Butik is a demo theme; the content is fictional.",
-          "ar": "قالب عرض تجريبي (Ipek Butik)؛ المحتوى افتراضي."
+          "ar": "إيبك بوتيك قالب تجريبي؛ المحتوى افتراضي."
         },
         "nlShow": true,
         "nlGonderim": "mailto",
@@ -3055,8 +3107,8 @@
         "hours": [],
         "address": {
           "tr": "Gümüşhane Caddesi No: 33, Şahinbey, Gaziantep (kurgusal adres)",
-          "en": "33 Gumushanei Avenue, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع فضي رقم 33، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "en": "33 Gumushane Avenue, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع غوموشهانه رقم 33، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 027 07 07",
         "email": "bilgi@ipekbutik.example",

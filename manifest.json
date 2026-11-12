@@ -1,7 +1,7 @@
 {
   "name": "Ipek Butik",
   "short_name": "Ipek Butik",
-  "description": "Özel dikim butik; görseller temsilîdir.",
+  "description": "Özel dikim ve hazır giyim butiği: kumaş seçimi, prova ve davet kıyafetleri. Görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
