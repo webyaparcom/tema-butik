@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Özel dikim butik; görseller temsilîdir.",
-    "en": "Custom-tailored boutique; images are representative.",
-    "ar": "بودينغ بقصّة خاصة؛ الصور تمثيلية."
+    "tr": "Özel dikim ve hazır giyim butiği: kumaş seçimi, prova ve davet kıyafetleri. Görseller temsilîdir.",
+    "en": "A boutique for custom tailoring and ready-to-wear: fabric choice, fittings and occasion wear. Images are representative.",
+    "ar": "بوتيك للخياطة حسب الطلب والملابس الجاهزة: اختيار القماش والبروفات وملابس المناسبات؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "butik, özel dikim, elbise",
-    "en": "boutique, custom tailoring, dress",
-    "ar": "بودينغ، قصّة خاصة، فستان"
+    "tr": "özel dikim, butik, hazır giyim, davet elbisesi, kumaş",
+    "en": "custom tailoring, boutique, ready-to-wear, occasion dress, fabric",
+    "ar": "خياطة حسب الطلب، بوتيك، ملابس جاهزة، فستان مناسبات، أقمشة"
   },
   "category": "Kurumsal",
   "name": "Ipek Butik",

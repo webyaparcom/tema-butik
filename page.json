@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Dikim, hazır ve kombin.",
-        "en": "Tailoring, ready and combination.",
-        "ar": "قصّة وجاهز ومجموعة."
+        "tr": "Özel dikim, hazır giyim ve kombin.",
+        "en": "Custom tailoring, ready-to-wear and styling.",
+        "ar": "خياطة حسب الطلب وملابس جاهزة وتنسيق إطلالات."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Özel dikim butik.",
-        "en": "Custom-tailored boutique.",
-        "ar": "بودينغ بقصّة خاصة."
+        "tr": "Özel dikim ve hazır giyim butiği.",
+        "en": "A boutique for custom tailoring and ready-to-wear.",
+        "ar": "بوتيك للخياطة حسب الطلب والملابس الجاهزة."
       }
     },
     {

@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Dikim, hazır ve kombin.",
-    "en": "Tailoring, ready and combination.",
-    "ar": "قصّة وجاهز ومجموعة."
+    "tr": "Özel dikim, hazır giyim ve kombin.",
+    "en": "Custom tailoring, ready-to-wear and styling.",
+    "ar": "خياطة حسب الطلب وملابس جاهزة وتنسيق إطلالات."
   },
   "keyword": {
     "tr": "Butik",
     "en": "Boutique",
-    "ar": "البودينغ"
+    "ar": "البوتيك"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:58:31.474Z",
-  "update": "2026-11-05T23:44:29.615Z"
+  "update": "2026-11-12T07:35:14.062Z"
 }
