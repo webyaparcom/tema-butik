@@ -1,37 +1,29 @@
 {
-  "name": {
-    "tr": "Menü 10 — Şeffaf overlay",
-    "en": "Menu 10 — Transparent overlay",
-    "ar": "القائمة 10 — شفافة فوق الهيرو"
-  },
-  "description": {
-    "tr": "Hero'nun üstüne binen şeffaf menü (position:absolute): başlangıçta şeffaf zemin + açık yazı (menutextOverlay) ve altında ince koyu gradient scrim; kaydırınca 300 ms'de katı zemine (menubg/menutext) geçer ve sabitlenir. Sayfada hero yoksa (#content ilk çocuğu data-mx-hero / *-hero değilse) baştan katı ve akışta. Mobil: tam ekran panel. desing.stil: sade | cta-butonlu (sağda vurgulu düğme). Dil seçici {{langbar}}. Üç dil + RTL.",
-    "en": "Transparent menu overlaid on the hero (position:absolute): transparent background + light text (menutextOverlay) with a thin dark gradient scrim underneath; on scroll it switches to a solid background (menubg/menutext) in 300 ms and sticks. Without a hero on the page (#content first child lacks data-mx-hero / *-hero) it starts solid and in flow. Mobile: full-screen panel. desing.stil: sade | cta-butonlu (accent button on the end side). Language switcher {{langbar}}. Three languages + RTL.",
-    "ar": "قائمة شفافة فوق الهيرو (position:absolute): خلفية شفافة ونص فاتح (menutextOverlay) مع تدرّج داكن رفيع أسفلها؛ عند التمرير تتحوّل خلال 300 ms إلى خلفية صلبة (menubg/menutext) وتثبت. إن لم توجد وحدة هيرو في الصفحة (أول عنصر في #content بلا data-mx-hero / *-hero) تبدأ صلبة وضمن التدفق. الجوال: لوحة بملء الشاشة. desing.stil: sade | cta-butonlu (زر بارز في جهة النهاية). محدد اللغة {{langbar}}. ثلاث لغات + RTL."
-  },
+  "name": "Menü Blok — Hücre ızgarası",
+  "description": "Kalın çizgilerle bölünmüş hücre ızgarası: logo hücresi · her menü öğesi kendi hücresinde (büyük harf, geniş aralık, 01·02·03 CSS sayacı) · dil hücresi · isteğe bağlı vurgu renkli CTA hücresi. Hover/aktif hücre aşağıdan yukarı ters renkle dolar. Üstte isteğe bağlı duyuru şeridi (desing.duyuru dil sözlüğü). max_oge'yi aşan öğeler ve ≤1024px'te tüm menü header'ın altında aşağı açılan, üstüne binmeyen dev yazılı panelde. Metinler lang.json + sayfa adları; renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
   "version": "1.0.0",
-  "icon": "layers",
+  "icon": "grid_view",
   "category": "menu",
-  "tags": ["menu", "overlay", "seffaf", "transparent", "hero", "sticky", "ar"],
+  "subCategory": "blok",
+  "tags": ["menu", "grid", "brutalist", "uppercase", "counter", "accordion", "rtl"],
   "desing": {
-    "stil": "sade",
     "logo": "{{logo}}",
-    "logo_acik": "",
-    "logo_h": "48px",
-    "max": "1200px",
+    "logo_h": "44px",
+    "cizgi": "2px",
+    "max_oge": 6,
+    "numara": true,
+    "sticky": false,
     "showlang": true,
-    "menubg": "var(--mx-site-bg, #ffffff)",
-    "menutext": "var(--mx-site-text, #1b1b1b)",
-    "menutextOverlay": "#ffffff",
-    "accent": "var(--mx-site-primary, #2563eb)",
+    "bg": "var(--mx-site-bg, #f4f1ea)",
+    "text": "var(--mx-site-text, #111111)",
+    "accent": "var(--mx-site-primary, #e4572e)",
     "accentText": "var(--mx-site-primary-contrast, #ffffff)",
-    "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
-    "cta": {
-      "tr": "Teklif al",
-      "en": "Get a quote",
-      "ar": "اطلب عرضًا"
-    },
-    "cta_url": "iletisim"
+    "bgcolor": "var(--mx-site-bg, #f4f1ea)",
+    "color": "var(--mx-site-text, #111111)",
+    "duyuru": "",
+    "duyuru_url": "",
+    "cta_ad": "",
+    "cta_url": ""
   },
   "data": [],
   "veri": {
